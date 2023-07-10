@@ -1,0 +1,3 @@
+### HYPERION - A SIMPLE MODULAR 3D RENDERER ###
+
+TODO: enter specs, am tired after cousin visit
