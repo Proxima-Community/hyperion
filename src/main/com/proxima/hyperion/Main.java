@@ -1,3 +1,4 @@
+package src.main.com.proxima.hyperion;
 import javax.swing.*;
 
 
@@ -6,10 +7,9 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
 
-        JButton button = new JButton("click pls"); 
-        button.setBounds(130,100,100,40);
+        Display graphics = new Display();
 
-        frame.add(button);
+        frame.add(graphics);
         frame.setSize(400,500);
         frame.setVisible(true);
 
