@@ -1,7 +1,7 @@
 package src.main.com.proxima.hyperion;
 
 public class Vector4 {
-    public float values[];
+    public float values[] = new float[4];
 
     public Vector4(float x, float y, float z, float w) {
         this.values[0] = x;

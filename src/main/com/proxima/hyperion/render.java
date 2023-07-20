@@ -2,7 +2,7 @@ package src.main.com.proxima.hyperion;
 
 public class render {
 
-    public Vector2 render(Vector4 vctr) {
+    public Vector2 renderPoint(Vector4 vctr) {
 
         float[] hi = vctr.values;
 
