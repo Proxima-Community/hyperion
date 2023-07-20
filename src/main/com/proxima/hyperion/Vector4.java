@@ -29,7 +29,29 @@ public class Vector4 {
     //@ param b Second vector to add.
     // ! preserves a's w component.
     public static Vector4 vec4Sub(Vector4 a, Vector4 b) {
-        return new Vector4(a.values[0] + b.values[0], a.values[1] + b.values[1], a.values[2] + b.values[2], a.values[3]);
+        return new Vector4(a.values[0] - b.values[0], a.values[1] - b.values[1], a.values[2] - b.values[2], a.values[3]);
+    }
+
+    //Multiplies two vectors.
+    // @param a First vector to add.
+    //@ param b Second vector to add.
+    // ! preserves a's w component.
+    public static Vector4 vec4Mult(Vector4 a, Vector4 b) {
+        return new Vector4(a.values[0] * b.values[0], a.values[1] * b.values[1], a.values[2] * b.values[2], a.values[3]);
+    }
+
+    //Divides two vectors.
+    // @param a First vector to add.
+    // @param b Second vector to add.
+    // ! preserves a's w component.
+    public static Vector4 vec4Div(Vector4 a, Vector4 b) {
+        return new Vector4(a.values[0] * b.values[0], a.values[1] * b.values[1], a.values[2] * b.values[2], a.values[3]);
+    }
+    // Adds a vector and a scalar.
+    // @param a Vector to add.
+    // @ param b The scalar to add by.
+    public static Vector4 vec4AddScalar(Vector4 a, float b) {
+        return new Vector4(a.values[0] + b, a.values[1] + b, a.values[2] + b, a.values[3]);
     }
 
 }
